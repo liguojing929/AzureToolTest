@@ -1,0 +1,8 @@
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\bin\Debug\EventHubTestReceiveEvent.exe.config
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\bin\Debug\EventHubTestReceiveEvent.exe
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\bin\Debug\EventHubTestReceiveEvent.pdb
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\obj\Debug\EventHubTestReceiveEvent.csproj.AssemblyReference.cache
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\obj\Debug\EventHubTestReceiveEvent.csproj.SuggestedBindingRedirects.cache
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\obj\Debug\EventHubTestReceiveEvent.csproj.CoreCompileInputs.cache
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\obj\Debug\EventHubTestReceiveEvent.exe
+C:\Users\lgj81\Desktop\Projects\WindowsProject\EventHubTest\EventHubTestReceiveEvent\obj\Debug\EventHubTestReceiveEvent.pdb
