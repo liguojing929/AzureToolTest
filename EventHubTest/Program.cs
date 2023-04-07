@@ -17,7 +17,7 @@ namespace EventHubTest
             string nameSpaceConnectionString = "Endpoint=sb://eventhubtestpersonal.servicebus.windows.net/;SharedAccessKeyName=sendandreceive;SharedAccessKey=U5un8lvQTaKo2Xd8U/4IMVAhXhINmppVv+AEhPQhIt4=;EntityPath=testeventhub";
             string eventHubName = "testeventhub";
 
-            await SendEnumerableEvents(nameSpaceConnectionString, eventHubName);
+            //await SendEnumerableEvents(nameSpaceConnectionString, eventHubName);
             await SendEnumerableEventsInBatch(nameSpaceConnectionString, eventHubName);
 
             Console.WriteLine("Sent out the events...");
