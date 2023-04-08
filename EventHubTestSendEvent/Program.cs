@@ -1,19 +1,18 @@
-﻿using Azure.Core;
-using Azure.Messaging.EventHubs;
-using Azure.Messaging.EventHubs.Producer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace EventHubTest
+namespace EventHubTestSendEvent
 {
+    using Azure.Messaging.EventHubs;
+    using Azure.Messaging.EventHubs.Producer;
+    using System;
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+
     public class Program
     {
         public static async Task Main(string[] args)
         {
-            Console.WriteLine("Start our own EventHub Producer");
+            Console.WriteLine("Start the EventHub Producer.");
             string nameSpaceConnectionString = "Endpoint=sb://eventhubtestpersonal.servicebus.windows.net/;SharedAccessKeyName=sendandreceive;SharedAccessKey=U5un8lvQTaKo2Xd8U/4IMVAhXhINmppVv+AEhPQhIt4=;EntityPath=testeventhub";
             string eventHubName = "testeventhub";
 
@@ -35,7 +34,6 @@ namespace EventHubTest
             }
 
             await producer.SendAsync(events);
-
         }
 
         private static async Task SendEnumerableEventsInBatch(string nameSpaceConnectionString, string eventHubName)
@@ -45,7 +43,7 @@ namespace EventHubTest
 
             for (int i = 0; i < 10; i++)
             {
-                batch.TryAdd(new EventData($"This is event in batch: event {i}"));
+                batch.TryAdd(new EventData($"This is event in batch: {i}"));
             }
 
             await producer.SendAsync(batch);
