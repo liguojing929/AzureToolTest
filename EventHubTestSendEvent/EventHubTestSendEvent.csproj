@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C917C83-CDF2-4553-9612-D76CD2BFAC77}</ProjectGuid>
+    <ProjectGuid>{BD7C7EF5-05CB-4E9F-8BF6-86D7AF2B4114}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EventHubTest</RootNamespace>
-    <AssemblyName>EventHubTest</AssemblyName>
+    <RootNamespace>EventHubTestSendEvent</RootNamespace>
+    <AssemblyName>EventHubTestSendEvent</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

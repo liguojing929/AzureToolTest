@@ -13,3 +13,12 @@
 * [Receiving events from EventHub](https://www.youtube.com/watch?v=zTL7Bd583Ek)
 
 
+## 2. EventGrid
+
+## 3. ServiceBus
+
+## 4. KeyVault
+
+## 5. CosmosDB
+
+
