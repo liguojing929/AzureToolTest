@@ -11,7 +11,13 @@ namespace Common.KeyVault
 {
     public class KeyVaultCommon
     {
-        // keyvault-app-for-credential:
+        /** keyvault-app-for-credential:
+         *  For the record - if the account you used to login visual studio is not the same as your Azure Account:
+         *  1. [For Azure Account] go to the "access policy" in Azure to create a new policy to add your account to gain access. 
+         *  2. [For Not Azure Account] go to "App Registration" and register a new app, then go to "Certificates & secrets" and note down
+         *     the value from "Client Secrets", also use the TenantID and ClientID shown on "Overview" page, to generate an Access Credential
+         *     as below
+         */
         private readonly string ClientID = "5165ef84-ae32-4cea-86cd-d6fbb758df47";
         private readonly string ObjectID = "d4e10996-3029-4c2e-bf5e-5de6821bc5f1";
         private readonly string TenantID = "ffdc92d4-d261-48ce-a9d8-2aa2075456f3";
