@@ -7,15 +7,21 @@ namespace EventHubTestSendEvent
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
+    using Common.KeyVault;
 
     public class Program
     {
-        private readonly static string nameSpaceConnectionString = "Endpoint=sb://eventhubtestpersonal.servicebus.windows.net/;SharedAccessKeyName=sendandreceive;SharedAccessKey=U5un8lvQTaKo2Xd8U/4IMVAhXhINmppVv+AEhPQhIt4=;EntityPath=testeventhub";
+        //private readonly static string nameSpaceConnectionString = "Endpoint=sb://eventhubtestpersonal.servicebus.windows.net/;SharedAccessKeyName=sendandreceive;SharedAccessKey=U5un8lvQTaKo2Xd8U/4IMVAhXhINmppVv+AEhPQhIt4=;EntityPath=testeventhub";
+        private static string nameSpaceConnectionString;
         private readonly static string eventHubName = "testeventhub";
+        private static KeyVaultCommon keyVaultTool;
 
         public static async Task Main(string[] args)
         {
+            keyVaultTool = new KeyVaultCommon();
             Console.WriteLine("Start the EventHub Producer.");
+            nameSpaceConnectionString = await keyVaultTool.GetSecreteValue("EventHubNameSpaceConnectionString-Personal");
+            Console.WriteLine($"nameSpaceConnectionString is: {nameSpaceConnectionString}");
             //await SendEnumerableEvents(nameSpaceConnectionString, eventHubName);
             await SendEnumerableEventsInBatch(nameSpaceConnectionString, eventHubName);
 

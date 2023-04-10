@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubTestSendEvent", "Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridTestSendEvent", "EventGridTestSendEvent\EventGridTestSendEvent.csproj", "{3067D005-25F6-4B8F-8BE6-E86852C0A940}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{AE42E5E7-BF28-45A4-8A7F-739E752F5BA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3067D005-25F6-4B8F-8BE6-E86852C0A940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3067D005-25F6-4B8F-8BE6-E86852C0A940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3067D005-25F6-4B8F-8BE6-E86852C0A940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE42E5E7-BF28-45A4-8A7F-739E752F5BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE42E5E7-BF28-45A4-8A7F-739E752F5BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE42E5E7-BF28-45A4-8A7F-739E752F5BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE42E5E7-BF28-45A4-8A7F-739E752F5BA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
