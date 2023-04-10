@@ -32,6 +32,9 @@
 #### For general KeyVault Description/Information, please refer to Microsoft Official Documentation:
 * [Azure KeyVault Official Documentation](https://learn.microsoft.com/en-us/azure/key-vault/general/)
 
+#### For the introduction tutorial about how to set up KeyVault and store/retrieve value from it, please refer to the video:
+* [How to use Azure Key Vault + .Net Core easily | Secrets, Keys and Certificates](https://www.youtube.com/watch?v=RTq72C10x88&t=608s)
+
 ## 5. CosmosDB
 #### For general CosmosDB Description/Information, please refer to Microsoft Official Documentation:
 * [Microsoft CosmosDB](https://learn.microsoft.com/en-us/azure/cosmos-db/introduction)
